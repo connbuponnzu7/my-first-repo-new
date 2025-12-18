@@ -1,0 +1,184 @@
+@charset "UTF-8";
+
+html{
+    scroll-behavior: smooth;
+}
+
+body {
+    margin: 0;
+    padding: 0;
+    font-family: 'Shippori Mincho B1', serif;
+    background: linear-gradient(to bottom, #f0fff0 0%, #2adba3 100%);
+    color: #333;
+}
+
+img {
+    max-width: 100%;
+    height: auto;
+}
+
+.container {
+    max-width: 900px;
+    margin: 0 auto;
+    background-color: #fff;
+}
+
+.site-header {
+    background-color: #f0fff0 5%;
+    width: 100%;
+}
+
+
+.header-inner {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    max-width: 900px; 
+    margin: 50px auto;
+    padding: 0 20px;
+}
+
+.logo {
+    width: 420px;
+}
+
+.btn-web img {
+    width: 280px;
+    height: auto;
+}
+
+h2 {
+    text-align: center;
+    color: #0e8660;
+    padding: 40px 0 20px;
+}
+
+.problem-box {
+    position: relative;
+    text-align: center;
+}
+
+.problem-text-overlay {
+    position: absolute;
+    top: 70%;
+    left: 10%;
+    transform: translateY(-50%);
+    background-color: rgba(255, 255, 255, 0.85);
+    padding: 20px 20px 20px 40px;
+    list-style: disc;
+    font-weight: bold;
+    text-align: left;
+    
+}
+
+
+.reason-flex {
+    display: flex;
+    gap: 15px;
+    padding: 0 20px 40px;
+}
+
+.reason-item {
+    flex: 1;
+    background-color: #e6f9f2;
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+}
+
+.reason-item img {
+    width: 100%;
+    height: 180px;
+    object-fit: cover;
+}
+
+.reason-item p {
+    margin: 15px 0;
+    font-size: 1.2rem;
+    line-height: 1.4;
+}
+
+
+.message-area {
+    text-align: center;
+    padding: 40px 0;
+}
+
+.message-main {
+    font-weight: bold;
+    font-size: 1.2rem;
+}
+
+/* 【背景画像セクション】 */
+.closing-section {
+    background-image: url('../images/closing-summary.jpg');
+    background-size: cover;
+    background-position: center;
+    padding: 60px 20px;
+}
+
+/* 画像の上の白いカード部分 */
+.closing-content {
+    background-color: rgba(255, 255, 255, 0.85) ;
+    max-width: 600px;
+    margin: 0 auto;
+    padding: 40px;
+    text-align: center;
+}
+.clinic-intro {
+    text-align: center;
+}
+
+.contact-btns {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 20px;
+    margin-bottom: 80px;
+}
+
+.contact-btns a {
+    flex: 1;
+    max-width: 280px;
+}
+
+.contact-btns img {
+    width: 100%;
+    height: auto;
+    display: block;
+}
+
+.catchphrase {
+    font-weight: bold;
+    font-size: 1.5rem;
+    margin-bottom: 80px;
+}
+
+.address-info strong {
+    font-weight: 900;
+}
+
+table {
+    margin: 20px auto 60px;
+    border-collapse: collapse;
+}
+
+th, td {
+    padding: 10px;
+    border-bottom: 1px solid #ccc;
+    text-align: left;
+}
+
+.footer-logo {
+    width: 350px;
+    height: auto;
+    display: block;
+    margin: 20px auto;
+}
+
+.site-footer {
+    text-align: center;
+    padding: 30px;
+    background-color: #333;
+    color: #fff;
+}
